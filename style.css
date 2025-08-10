@@ -1,0 +1,334 @@
+/*---0.Style---*/
+
+html {
+    scroll-behavior: smooth;
+}
+.headline_h2 {
+    font-family:"raleway";
+    color: #9F0908;
+    font-weight: bold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "raleway";
+}
+
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.economica-regular {
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+/*---1.Header---*/
+
+.hero {
+    background-image: url("assets/img/1_hero/JPG/hero_bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+/*---1.1Headline---*/
+
+.hero_headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+    margin: 0 120px;
+}
+
+.sakura {
+    width: 64px;
+    height: 64px;
+}
+
+.nav_links {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+
+}
+.nav_links a {margin: 0 10px;}
+
+.number {
+    background-color: #9F0908;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid white; 
+    border-radius: 6px;      
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 96px;color: white;
+    margin: 0;
+}
+
+.span1{
+        
+    font-size: 24px;
+    color: white;
+}
+
+/*---1.2Midline---*/
+
+.hero_text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1_text {
+    font-size: 96px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero_text span {
+    font-size: 16px;
+    color: white;
+    opacity: 0.8;
+}
+
+.nav_links a:link,
+.nav_links a:visited,
+.nav_links a:hover,
+.nav_links a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.number {
+    background-color: #9F0908;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/*---2.How to Order---*/
+.section_how_to {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 120px;
+    flex-direction: column;
+    gap: 64px;
+    margin-left: 120px;margin-right: 120px;
+
+}
+
+.foot_pic {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    gap: 300px;
+}
+
+.noodle {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+.noodle span{
+    font-family: "economica";
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.broth {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+        align-items: center;
+
+}
+.broth span{
+    font-family: "economica";
+    font-weight: bold;
+    font-size: 56px;
+}
+.toppings {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+        align-items: center;
+
+
+}
+.toppings span{
+    font-family: "economica";
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.order_png {
+    width: 128px;
+}
+
+
+
+
+/*---3.Our Menu---*/
+
+.section_our_menu {
+    background-image: url(assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+     
+
+    /* height: 100vh; */
+}
+
+.ramen_png {
+    width: 352px;
+    height: 352px;
+}
+
+.h3_ramen {
+    font-family: "economica";
+    font-size: 56px;
+    color: black;
+}
+
+.variante_price {
+    font-family: "raleway";
+    font-weight: bold;
+    font-size: 32px;
+    color: #675E54;
+    gap: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.png_price {
+    display: flex;
+    gap: 80px;
+    margin-left: 120px;margin-right: 120px;
+
+}
+
+.price_png {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+    margin-left: 120px;margin-right: 120px;
+}
+
+.name_price {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.variante_menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/*---4.Find us---*/
+
+.section_find_us {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.head_marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.marker {
+    height: 24px;
+    width: 24px;
+}
+
+.find_us {
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    padding-top: 64px;
+    margin: 0px;
+    padding-bottom: 0px;
+    width: 100%
+}
+
+
+
+/*---5.Footer---*/
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  box-sizing: border-box;
+    
+    padding-left: 120px;padding-right: 120px;
+
+}
+
+.sakura_end {
+    height: 48px;
+}
+
+.socials {
+    height: 48px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+

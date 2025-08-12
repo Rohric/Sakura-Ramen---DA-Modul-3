@@ -161,9 +161,10 @@ h1 {
 
 .foot_pic {
     display: flex;
-    justify-content: space-between;
-    /* flex-direction: row; */
-    gap: 300px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 250px;
 }
 
 .noodle {
@@ -352,40 +353,163 @@ iframe {
 }
 
 
-/* Mobile-First – Basisstyles für kleinste Geräte */
-body {
-  font-family: sans-serif;
-}
+/* Ab 320px-767px – Smartphone */
+@media (min-width: 320px) and (max-width: 767px) {
 
-/* Ab 576px – kleine Tablets / Smartphones quer */
-@media (min-width: 576px) {
-  
-}
+    .hero {
+        padding: 0px;
+        gap: 150px;
+    }
 
-/* Ab 768px – Tablets quer */
-@media (min-width: 768px) {
+    .hero_headline {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
     .hide-mobile {
         display: none;
     }
-    .hero{
-        padding:0px; gap: 250px;
+
+    .hero_text h1 {
+        font-size: 44px;
     }
-    .hero_text h1{
-        font-size: 72px;
+
+    .span1 {
+        font-size: 16px;
     }
-    .span1{
-        font-size: 20px;
+
+    /* HOW TO ORDER */
+
+    .section_how_to {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        gap: 64px;
+        margin-left: 120px;
+        margin-right: 120px;
+
+    }
+
+    .foot_pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 32px;
+    }
+    .headline_h2 {
+        font-size: 40px;
     }
     
-  
+    .foot_pic span{
+        font-size: 32px;
+    }
+.toppings{
+    gap: 8px;
+}
 }
 
-/* Ab 992px – Laptops, kleine Desktops */
-@media (min-width: 992px) {
-  
+.png_price{
+    flex-direction: column;
+    gap: 32px;
+}
+.price_png{
+    flex-direction: column;
+    gap: 32px;
+}
+.h3_ramen{
+    font-size: 32px;
+}
+.variante_price{
+    font-size: 24px;
+    
 }
 
-/* Ab 1200px – große Desktops, Widescreen */
-@media (min-width: 1200px) {
-  
+.marker span{
+    font-size: 16px;
+}
+
+.socials {
+    height: 32px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* 768px-1280px – kleine Tablets / Smartphones quer */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .hero_headline {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .hero {
+        padding: 0px;
+        gap: 250px;
+    }
+
+    .hero_text h1 {
+        font-size: 72px;
+    }
+
+    .span1 {
+        font-size: 20px;
+    }
+
+    .headline_h2 {
+        font-size: 64px;
+    }
+
+    .order_png {
+        width: 112px;
+    }
+
+    .noodle span {
+        font-size: 32px;
+    }
+
+    .broth span {
+        font-size: 32px;
+    }
+
+    .toppings span {
+        font-size: 32px;
+    }
+
+    .h3_ramen {
+        font-size: 32px;
+    }
+
+    .variante_price {
+        font-size: 24px;
+    }
+
+    .margin-16 {
+        margin: 16px;
+    }
+
+    .section_find_us {
+        padding-top: 96px;
+        padding-bottom: 48px;
+
+    }
+
+    .footer {
+        height: 144px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .sakura_end {
+        height: 44px;
+    }
 }

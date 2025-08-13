@@ -9,9 +9,9 @@ html {
     color:#9F0908;
     font-weight:700;
     font-size:80px;
-    margin:0 auto;        /* Element selbst mittig */
-    text-align:center;     /* Text mittig */
-    display:flex;         /* Flex raus */
+    margin:0 auto;        
+    text-align:center;     
+            
   }
   
 
@@ -472,6 +472,10 @@ iframe {
         width: 40px;
         height: 40px;
     }
+
+    .order_png{
+        width: 128px;
+    }
 }
 
 /* 768px-1280px – kleine Tablets / Smartphones quer */
@@ -569,11 +573,15 @@ iframe {
     }
 
     .section_how_to{
-        margin-left: 0;      /* <-- die waren schuld */
+        margin-left: 0;      
         margin-right: 0;
-        padding: 96px 24px;  /* angenehme Seiten-Abstände */
-        align-items: center; /* kann bleiben */
+        padding: 96px 24px;  /
+        align-items: center; 
         gap: 48px;
+      }
+
+      .foot_pic{
+        gap: 120px;
       }
       
       

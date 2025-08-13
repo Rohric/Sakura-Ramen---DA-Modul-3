@@ -4,15 +4,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.headline_h2 {
-    font-family: "raleway";
-    color: #9F0908;
-    font-weight: bold;
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-}
+.headline_h2{
+    font-family:"Raleway";
+    color:#9F0908;
+    font-weight:700;
+    font-size:80px;
+    margin:0 auto;        /* Element selbst mittig */
+    text-align:center;     /* Text mittig */
+    display:flex;         /* Flex raus */
+  }
+  
 
 html,
 body {
@@ -237,8 +238,10 @@ h1 {
 }
 
 .ramen_png {
-    width: 352px;
-    height: 352px;
+    /* width: 352px;
+    height: 352px; */
+    width: clamp(250px, 25vw, 352px);
+    height: auto;
 }
 
 .h3_ramen {
@@ -394,8 +397,8 @@ iframe {
         padding-right: 20px;
         flex-direction: column;
         gap: 64px;
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: 80px;
+        margin-right: 80px;
 
     }
 
@@ -409,7 +412,7 @@ iframe {
     }
 
     .headline_h2 {
-        font-size: 40px;
+        font-size: clamp(24px, 8vw, 40px);
     }
 
     .foot_pic span {
@@ -437,6 +440,7 @@ iframe {
 
     .variante_price {
         font-size: 24px;
+        gap: 100px;
 
     }
 
@@ -495,7 +499,8 @@ iframe {
     }
 
     .headline_h2 {
-        font-size: 64px;
+        font-size: 40px;
+        white-space: nowrap;
     }
 
     .order_png {
@@ -562,4 +567,14 @@ iframe {
         content: url("./assets/img/1_hero/PNG/sakura_logo.png");
         height: 44px;
     }
+
+    .section_how_to{
+        margin-left: 0;      /* <-- die waren schuld */
+        margin-right: 0;
+        padding: 96px 24px;  /* angenehme Seiten-Abstände */
+        align-items: center; /* kann bleiben */
+        gap: 48px;
+      }
+      
+      
 }

@@ -258,15 +258,18 @@ h1 {
 
 .png_price {
     display: flex;
+    align-items: center;
     gap: 80px;
     margin-left: 120px;
     margin-right: 120px;
+    
 
 }
 
 .price_png {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     gap: 80px;
     margin-left: 120px;
     margin-right: 120px;
